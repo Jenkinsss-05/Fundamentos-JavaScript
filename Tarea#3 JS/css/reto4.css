@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #818181;
+}
+
+header {
+    background-color: #333;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+}
+
+.container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#combo {
+    padding: 5px; /* Se corrigió el valor del padding */
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+#imagen-container {
+    text-align: center;
+}
+
+#imagen {
+    max-width: 100%; /* Se cambió el tamaño máximo de la imagen */
+    height: auto; /* Se ajustó la altura automáticamente */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+.lightbox {
+    display: block;
+    margin: 0 auto;
+}
+
+.lightbox img {
+    max-width: 100%;
+    height: auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease-in-out;
+}
+
+.lightbox img:hover {
+    transform: scale(1.1); /* Escala un poco la imagen al pasar el ratón sobre ella */
+}

@@ -1,0 +1,93 @@
+body {
+    background-image: url('https://th.bing.com/th/id/R.05b995b4eb49613e9b4ea98fa231ccc9?rik=Ie6pX%2fANrwLFBg&pid=ImgRaw&r=0');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #f8f9fa; 
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+
+.cursor {
+    cursor: pointer;
+}
+
+.usuario {
+    width: 70%;
+}
+
+a {
+    font-weight: bold;
+    color: #717171;
+    text-decoration: none;
+}
+
+input,
+select {
+    cursor: pointer;
+}
+
+.error {
+    border: rgb(0, 0, 0) solid 1px;
+
+
+}
+
+#forgot-pass {
+    font-weight: bold;
+    text-align: end;
+    font-size: 12px;
+}
+
+@media (max-width:575px) {
+    .animacion1 {
+        width: 80% !important;
+        margin: 0 auto !important;
+        display: block !important;
+    }
+    .animacion2 {
+        width: 100% !important;
+    }
+}
+
+.container {
+    margin-top: 50px; 
+}
+
+.form-container {
+    background-color: #a4a4a467; 
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 10px rgba(141, 60, 60, 0.1); 
+}
+
+a {
+    color: #000000; 
+}
+
+
+
+.btn-primary {
+    background-color: #139de1c0; 
+}
+
+.btn-primary:hover {
+    background-color: #11a9dc9c; 
+    border-color: #1395c094; 
+}
+
+.form-control {
+    font-size: 11px;
+    padding: 10px;
+}
+
+
+.footer {
+    background-color: #343a40;
+    color: white;
+    padding: 20px 0; 
+    min-height: 50px; 
+    margin-top: 500px; 
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reto9.css">
+    <title>reto 9</title>
+</head>
+<body>
+
+    <nav>
+        <ul>      
+          <li><a href="index.html">inicio</a></li>
+          <li><a href="reto1.html">reto 1</a></li>
+          <li><a href="reto2.html">Reto 2</a></li>
+          <li><a href="reto3.html">Reto 3</a></li>
+          <li><a href="reto4.html">Reto 4</a></li>
+          <li><a href="reto5.html">Reto 5</a></li>
+          <li><a href="reto6.html">Reto 6</a></li>
+          <li><a href="reto7.html">Reto 7</a></li>
+          <li><a href="reto8.html">Reto 8</a></li>
+          <li><a href="reto9.html">Reto 9</a></li>
+          <li><a href="reto10.html">Reto 10</a></li>
+        </ul>
+      </nav>
+    <form action="submit_encuesta_cuadraciclo.php" method="post">
+        <fieldset>
+            <legend>Preferencias de Ruta</legend>
+            <label><input type="checkbox" name="preferencias[]" value="Ruta Escénica"> Ruta Escénica</label>
+            <label><input type="checkbox" name="preferencias[]" value="Aventura en la Selva"> Aventura en la Selva</label>
+            <label><input type="checkbox" name="preferencias[]" value="Exploración Urbana"> Exploración Urbana</label>
+        </fieldset>
+        <fieldset>
+            <legend>Complementos</legend>
+            <label><input type="checkbox" name="complementos[]" value="Almuerzo Incluido"> Almuerzo Incluido</label>
+            <label><input type="checkbox" name="complementos[]" value="Guía Turístico"> Guía Turístico</label>
+            <label><input type="checkbox" name="complementos[]" value="Equipo de Seguridad"> Equipo de Seguridad</label>
+        </fieldset>
+        <fieldset>
+            <legend>Preferencias de Tiempo</legend>
+            <label><input type="checkbox" name="tiempo[]" value="Mañana"> Mañana</label>
+            <label><input type="checkbox" name="tiempo[]" value="Tarde"> Tarde</label>
+            <label><input type="checkbox" name="tiempo[]" value="Noche"> Noche</label>
+        </fieldset>
+        <input type="submit" value="Enviar Encuesta">
+    </form>
+</body>
+</html>

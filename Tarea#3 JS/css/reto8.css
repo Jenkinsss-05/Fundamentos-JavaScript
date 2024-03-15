@@ -1,0 +1,60 @@
+
+h1 {
+    color: #333;
+  }
+  
+  form {
+    background-color: #a5a5a58f;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-control {
+    border: 1px solid #ced4da;
+  }
+  
+  .btn-primary {
+    background-color: #0d14e9;
+    border-color: #007bff;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+  }
+  
+  .form-select {
+    border: 1px solid #ced4da;
+  }
+  
+  .row.mb-3 > .col {
+    margin-bottom: 15px;
+  }
+  
+  #selected-data {
+    margin-top: 20px;
+    font-style: italic;
+    color: #888;
+  }
+  
+
+  nav {
+    background-color: #333;
+    padding: 10px 0;
+  }
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  nav ul li {
+    display: inline;
+  }
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    transition: background-color 0.3s;
+  }

@@ -1,0 +1,40 @@
+.menu {
+    background-color: #000000;
+    overflow: hidden;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.menu ul li {
+    float: left;
+}
+
+.menu ul li a {
+    display: block;
+    color: rgb(182, 39, 39);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.menu ul li a:hover {
+    background-color: #b74a4a;
+}
+
+.ilustracion {
+    width: 300px;
+    height: 20px;
+}
+
+.footer {
+    background-color: #343a40; 
+    color: white;
+    padding: 20px 0; 
+    min-height: 50px; 
+    margin-top: 500px; 
+}
